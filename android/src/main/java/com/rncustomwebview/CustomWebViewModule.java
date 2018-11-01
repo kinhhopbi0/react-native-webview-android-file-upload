@@ -240,12 +240,12 @@ public class CustomWebViewModule extends ReactContextBaseJavaModule implements A
     private CharSequence[] getDialogItems(String[] types) {
         List<String> listItems = new ArrayList<String>();
 
-        if (acceptsImages(types)) {
-            listItems.add(TAKE_PHOTO);
-        }
-        if (acceptsVideo(types)) {
-            listItems.add(TAKE_VIDEO);
-        }
+        //if (acceptsImages(types)) {
+//             listItems.add(TAKE_PHOTO);
+//         }
+//         if (acceptsVideo(types)) {
+//             listItems.add(TAKE_VIDEO);
+//         }
 
         listItems.add(CHOOSE_FILE);
         listItems.add(CANCEL);
